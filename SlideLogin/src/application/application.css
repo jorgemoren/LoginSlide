@@ -1,0 +1,21 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.image1 {
+	-fx-background-image: url("sw1.jpg");
+	-fx-background-size: 100%;
+	-fx-background-repeat: no-repeat ;
+}
+.image2 {
+	-fx-background-image: url("sw2.jpg");
+	-fx-background-size: 100%;
+	-fx-background-repeat: no-repeat ;
+}
+.image3 {
+	-fx-background-image: url("sw3.jpg");
+	-fx-background-size: 100%;
+	-fx-background-repeat: no-repeat ;
+}
+.image4 {
+	-fx-background-image: url("sw4.jpg");
+	-fx-background-size: 100%;
+	-fx-background-repeat: no-repeat ;
+}

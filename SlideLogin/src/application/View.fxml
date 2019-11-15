@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller">
+   <children>
+      <Pane id="panel1" fx:id="panel1" prefHeight="600.0" prefWidth="1000.0" styleClass="image1" stylesheets="@application.css" />
+      <Pane id="panel2" fx:id="panel2" prefHeight="600.0" prefWidth="1000.0" styleClass="image2" stylesheets="@application.css" />
+      <Pane id="panel3" fx:id="panel3" prefHeight="600.0" prefWidth="1000.0" styleClass="image3" stylesheets="@application.css" />
+      <Pane id="panel4" fx:id="panel4" prefHeight="600.0" prefWidth="1000.0" styleClass="image4" stylesheets="@application.css" />
+      <Pane prefHeight="363.0" prefWidth="276.0" style="-fx-background-color: #E6E6E6; -fx-background-radius: 75;" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="50.0">
+         <children>
+            <ImageView fitHeight="114.0" fitWidth="145.0" layoutX="81.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Estrella.png" />
+               </image>
+            </ImageView>
+            <JFXTextField labelFloat="true" layoutX="54.0" layoutY="151.0" promptText="USERNAME" unFocusColor="RED" />
+            <JFXPasswordField labelFloat="true" layoutX="54.0" layoutY="197.0" promptText="PASSWORD" unFocusColor="RED" />
+            <JFXButton layoutX="44.0" layoutY="260.0" prefHeight="31.0" prefWidth="188.0" ripplerFill="RED" style="-fx-background-color: bLUE; -fx-background-radius: 75;" text="GET STARTED" textFill="WHITE" />
+            <JFXButton layoutX="41.0" layoutY="301.0" ripplerFill="RED" text="FORGOT YOU PASSWORD" textAlignment="CENTER" textFill="#067c12">
+               <font>
+                  <Font name="Bookshelf Symbol 7" size="15.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
