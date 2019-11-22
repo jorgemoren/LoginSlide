@@ -33,9 +33,10 @@ public class controller {
 
 	@FXML
 	private void reportButtonHandler(ActionEvent event) {
-	    FXMLLoader fxmlLoader = new 
-	        FXMLLoader(getClass().getResource("HomePage.fxml"));
+	    
 	   try {
+		   FXMLLoader fxmlLoader = new 
+				   FXMLLoader(getClass().getResource("HomePage.fxml"));
 		   Parent root1 = (Parent) fxmlLoader.load();
 		    Stage stage = new Stage();
 		    //set what you want on your stage
