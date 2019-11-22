@@ -25,18 +25,13 @@ public class controller {
 	@FXML
 	private Pane panel4;
 
-	// @FXML
-	// private URL location;
-	//
-	// @FXML
-	// private ResourceBundle resources;
-
 	@FXML
 	private void reportButtonHandler(ActionEvent event) {
 
 		try {
 			FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("HomePage.fxml"));
-			Parent root1 = (Parent) fxmlLoader.load();
+			Parent root1;
+			root1 = (Parent) fxmlLoader.load();
 			Stage stage = new Stage();
 			// set what you want on your stage
 			stage.initModality(Modality.APPLICATION_MODAL);
@@ -45,6 +40,7 @@ public class controller {
 			stage.setResizable(false);
 			stage.show();
 		} catch (Exception e) {
+			e.printStackTrace();
 		}
 	}
 
