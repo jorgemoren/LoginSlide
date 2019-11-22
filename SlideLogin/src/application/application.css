@@ -19,3 +19,39 @@
 	-fx-background-size: 100%;
 	-fx-background-repeat: no-repeat ;
 }
+
+.header {
+	-fx-background-color: #D8D8D8;
+}
+
+.image5 {
+	-fx-background-image: url("1.jpg");
+	-fx-background-size: 100%;
+	-fx-background-repeat: no-repeat ;
+}
+.image6 {
+	-fx-background-image: url("2.jpg");
+	-fx-background-size: 100%;
+	-fx-background-repeat: no-repeat ;
+}
+.image7 {
+	-fx-background-image: url("3.jpg");
+	-fx-background-size: 100%;
+	-fx-background-repeat: no-repeat ;
+}
+.image8 {
+	-fx-background-image: url("4.jpg");
+	-fx-background-size: 100%;
+	-fx-background-repeat: no-repeat ;
+}
+
+.homeBTNS :hover {
+	-fx-background-color: #ff895e;
+}
+
+.homeBC{
+	-fx-background-color: #ff895e;
+}
+.homeBC2{
+	-fx-background-color: #81F781;
+}
