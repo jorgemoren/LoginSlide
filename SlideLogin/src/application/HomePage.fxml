@@ -30,10 +30,26 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="310.0" prefWidth="1000.0" stylesheets="@application.css">
                      <children>
-                        <Pane fx:id="pane1" styleClass="image1" stylesheets="@application.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
-                        <Pane fx:id="pane2" styleClass="image2" stylesheets="@application.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
-                        <Pane fx:id="pane3" styleClass="image3" stylesheets="@application.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
-                        <Pane fx:id="pane4" styleClass="image4" stylesheets="@application.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                        <Pane fx:id="pane1" stylesheets="@application.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <styleClass>
+                              <String fx:value="image1" />
+                              <String fx:value="image5" />
+                           </styleClass></Pane>
+                        <Pane fx:id="pane2" stylesheets="@application.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <styleClass>
+                              <String fx:value="image2" />
+                              <String fx:value="image6" />
+                           </styleClass></Pane>
+                        <Pane fx:id="pane3" stylesheets="@application.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <styleClass>
+                              <String fx:value="image3" />
+                              <String fx:value="image7" />
+                           </styleClass></Pane>
+                        <Pane fx:id="pane4" stylesheets="@application.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <styleClass>
+                              <String fx:value="image4" />
+                              <String fx:value="image8" />
+                           </styleClass></Pane>
                      </children>
                   </AnchorPane>
                </children>
@@ -61,19 +77,47 @@
                         <String fx:value="homeBC" />
                      </styleClass>
                   </JFXButton>
-                  <JFXButton prefHeight="150.0" prefWidth="150.0" styleClass="homeBC2" stylesheets="@application.css" text="Botón" GridPane.columnIndex="1" />
-                  <JFXButton prefHeight="150.0" prefWidth="150.0" ripplerFill="#531bae" styleClass="homeBC" stylesheets="@application.css" text="Botón" GridPane.columnIndex="2" />
+                  <JFXButton prefHeight="150.0" prefWidth="150.0" stylesheets="@application.css" text="Botón" GridPane.columnIndex="1">
+                     <styleClass>
+                        <String fx:value="homeBTNS" />
+                        <String fx:value="homeBC2" />
+                     </styleClass></JFXButton>
+                  <JFXButton prefHeight="150.0" prefWidth="150.0" ripplerFill="#531bae" stylesheets="@application.css" text="Botón" GridPane.columnIndex="2">
+                     <styleClass>
+                        <String fx:value="homeBC" />
+                        <String fx:value="homeBTNS" />
+                     </styleClass></JFXButton>
                   <JFXButton prefHeight="150.0" prefWidth="150.0" text="Botón" GridPane.rowIndex="1">
                      <styleClass>
                         <String fx:value="homeBTNS" />
                         <String fx:value="homeBC" />
                      </styleClass>
                   </JFXButton>
-                  <JFXButton prefHeight="150.0" prefWidth="150.0" styleClass="homeBC2" stylesheets="@application.css" text="Botón" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                  <JFXButton prefHeight="150.0" prefWidth="150.0" styleClass="homeBC" stylesheets="@application.css" text="Botón" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-                  <JFXButton prefHeight="150.0" prefWidth="150.0" styleClass="homeBC" stylesheets="@application.css" text="Botón" GridPane.rowIndex="2" />
-                  <JFXButton prefHeight="150.0" prefWidth="150.0" styleClass="homeBC2" stylesheets="@application.css" text="Botón" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                  <JFXButton prefHeight="150.0" prefWidth="150.0" styleClass="homeBC" stylesheets="@application.css" text="Botón" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <JFXButton prefHeight="150.0" prefWidth="150.0" stylesheets="@application.css" text="Botón" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <styleClass>
+                        <String fx:value="homeBTNS" />
+                        <String fx:value="homeBC2" />
+                     </styleClass></JFXButton>
+                  <JFXButton prefHeight="150.0" prefWidth="150.0" stylesheets="@application.css" text="Botón" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <styleClass>
+                        <String fx:value="homeBC" />
+                        <String fx:value="homeBTNS" />
+                     </styleClass></JFXButton>
+                  <JFXButton prefHeight="150.0" prefWidth="150.0" stylesheets="@application.css" text="Botón" GridPane.rowIndex="2">
+                     <styleClass>
+                        <String fx:value="homeBC" />
+                        <String fx:value="homeBTNS" />
+                     </styleClass></JFXButton>
+                  <JFXButton prefHeight="150.0" prefWidth="150.0" stylesheets="@application.css" text="Botón" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <styleClass>
+                        <String fx:value="homeBC2" />
+                        <String fx:value="homeBTNS" />
+                     </styleClass></JFXButton>
+                  <JFXButton prefHeight="150.0" prefWidth="150.0" stylesheets="@application.css" text="Botón" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <styleClass>
+                        <String fx:value="homeBC" />
+                        <String fx:value="homeBTNS" />
+                     </styleClass></JFXButton>
                </children>
             </GridPane>
          </center>
@@ -83,13 +127,41 @@
          <children>
             <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <children>
-                  <JFXButton lineSpacing="5.0" prefHeight="97.0" prefWidth="300.0" styleClass="homeBC2" text="Button 1" />
-                  <JFXButton lineSpacing="5.0" prefHeight="97.0" prefWidth="300.0" styleClass="homeBC" text="Button 2" />
-                  <JFXButton lineSpacing="5.0" prefHeight="97.0" prefWidth="303.0" styleClass="homeBC2" text=" Button 3" />
-                  <JFXButton lineSpacing="5.0" prefHeight="97.0" prefWidth="300.0" styleClass="homeBC" text=" Button 4" />
-                  <JFXButton lineSpacing="5.0" prefHeight="97.0" prefWidth="300.0" styleClass="homeBC2" text=" Button 5" />
-                  <JFXButton lineSpacing="5.0" prefHeight="97.0" prefWidth="300.0" styleClass="homeBC" text=" Button 6" />
-                  <JFXButton lineSpacing="5.0" prefHeight="97.0" prefWidth="300.0" styleClass="homeBC2" text=" Button 7" />
+                  <JFXButton lineSpacing="5.0" prefHeight="97.0" prefWidth="300.0" text="Button 1">
+                     <styleClass>
+                        <String fx:value="homeBC2" />
+                        <String fx:value="homeBTNS" />
+                     </styleClass></JFXButton>
+                  <JFXButton lineSpacing="5.0" prefHeight="97.0" prefWidth="300.0" text="Button 2">
+                     <styleClass>
+                        <String fx:value="homeBC" />
+                        <String fx:value="homeBTNS" />
+                     </styleClass></JFXButton>
+                  <JFXButton lineSpacing="5.0" prefHeight="97.0" prefWidth="303.0" text=" Button 3">
+                     <styleClass>
+                        <String fx:value="homeBC2" />
+                        <String fx:value="homeBTNS" />
+                     </styleClass></JFXButton>
+                  <JFXButton lineSpacing="5.0" prefHeight="97.0" prefWidth="300.0" text=" Button 4">
+                     <styleClass>
+                        <String fx:value="homeBC" />
+                        <String fx:value="homeBTNS" />
+                     </styleClass></JFXButton>
+                  <JFXButton lineSpacing="5.0" prefHeight="97.0" prefWidth="300.0" text=" Button 5">
+                     <styleClass>
+                        <String fx:value="homeBC2" />
+                        <String fx:value="homeBTNS" />
+                     </styleClass></JFXButton>
+                  <JFXButton lineSpacing="5.0" prefHeight="97.0" prefWidth="300.0" text=" Button 6">
+                     <styleClass>
+                        <String fx:value="homeBC" />
+                        <String fx:value="homeBTNS" />
+                     </styleClass></JFXButton>
+                  <JFXButton lineSpacing="5.0" prefHeight="97.0" prefWidth="300.0" text=" Button 7">
+                     <styleClass>
+                        <String fx:value="homeBC2" />
+                        <String fx:value="homeBTNS" />
+                     </styleClass></JFXButton>
                </children>
             </VBox>
          </children>

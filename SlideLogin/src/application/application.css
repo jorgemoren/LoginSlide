@@ -45,8 +45,10 @@
 	-fx-background-repeat: no-repeat ;
 }
 
-.homeBTNS :hover {
-	-fx-background-color: #ff895e;
+.homeBTNS:hover {
+	-fx-background-color: #F7FE2E;
+	-fx-text-fill: blue;
+	-fx-opacity: 1;
 }
 
 .homeBC{

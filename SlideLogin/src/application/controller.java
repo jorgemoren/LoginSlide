@@ -29,13 +29,13 @@ public class controller {
 	private void reportButtonHandler(ActionEvent event) {
 
 		try {
-			FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("HomePage.fxml"));
+			FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Asistente.fxml"));
 			Parent root1;
 			root1 = (Parent) fxmlLoader.load();
 			Stage stage = new Stage();
 			// set what you want on your stage
 			stage.initModality(Modality.APPLICATION_MODAL);
-			stage.setTitle("Home Page");
+			//stage.setTitle("Home Page");
 			stage.setScene(new Scene(root1));
 			stage.setResizable(false);
 			stage.show();

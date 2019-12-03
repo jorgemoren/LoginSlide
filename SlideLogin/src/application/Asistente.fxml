@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControllerAsistente">
+   <children>
+      <AnchorPane fx:id="pane1" layoutX="133.0" layoutY="200.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: GREEN;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="179.0" layoutY="77.0" text="AMENAZA FANTASMA" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="160.0" layoutY="108.0" prefHeight="68.0" prefWidth="179.0" text="AQUÍ IRÁ INFROMACIÓN SOBRE EL EPISODIO 1 DE STAR WARS" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+            <Label alignment="CENTER" layoutX="166.0" layoutY="204.0" prefHeight="193.0" prefWidth="168.0" style="-fx-background-color: #fff; -fx-border-color: #00000020; -fx-border-width: 5px;" text="PORTADA EPISODIO 1" textFill="#969696">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pane2" layoutX="143.0" layoutY="210.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: RED;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="179.0" layoutY="77.0" text="EL ATAQUE DE LOS CLONES" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="160.0" layoutY="108.0" prefHeight="68.0" prefWidth="179.0" text="AQUÍ IRÁ INFROMACIÓN SOBRE EL EPISODIO 2 DE STAR WARS" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+            <Label alignment="CENTER" layoutX="166.0" layoutY="204.0" prefHeight="193.0" prefWidth="168.0" style="-fx-background-color: #fff; -fx-border-color: #00000020; -fx-border-width: 5px;" text="PORTADA DE LA PELÍCULA" textFill="#969696">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pane3" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: ORANGE;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="125.0" layoutY="55.0" text="la venganza de los sith" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="173.0" layoutY="111.0" prefHeight="68.0" prefWidth="179.0" text="AQUÍ IRA INFORMACION SOBRE STAR WARS EPISODIO 3" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+            <Label alignment="CENTER" layoutX="178.0" layoutY="204.0" prefHeight="193.0" prefWidth="168.0" style="-fx-background-color: #fff; -fx-border-color: #00000020; -fx-border-width: 5px;" text="IMÁGEN DE LA PORTADA DE LA PELÍCULA" textFill="#969696">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <JFXButton layoutX="445.0" layoutY="14.0" onAction="#reportButtonHandler" text="Skip" />
+         </children>
+      </AnchorPane>
+      <JFXButton layoutX="382.0" layoutY="508.0" onAction="#nextAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #00000020; -fx-background-radius: 50px;" text="&gt;" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="43.0" layoutY="508.0" onAction="#backAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #00000020; -fx-background-radius: 50px;" text="&lt;" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="countLabel" alignment="CENTER" layoutX="104.0" layoutY="525.0" prefHeight="17.0" prefWidth="269.0" text="1/3" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
